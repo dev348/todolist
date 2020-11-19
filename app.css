@@ -35,11 +35,7 @@ footer{
 .box-card{
     background: -webkit-linear-gradient(left,#e2e7e7,#dafafa,#edfafa);
 }
-#displayTodo {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-}
+
 
 header{
     font-size: 12px;
@@ -52,27 +48,15 @@ header{
 
 }
 .btn1 button{
-    width: 100%;
-    height: 40px;
-    
-    margin: 10px;
-    padding: 2px 3px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 40px;
-    width: 100%;
     border: none;
-    padding: 12px 60px;
     border-radius: 5px;
     background: -webkit-linear-gradient(left,#2a4646,#011616,#159494);
-    display: inline-block;
+
 }
 
-.btn{
-   margin-bottom: 10px;
-    
-}
 
 
 input{
@@ -139,6 +123,7 @@ li:hover {
 }
 
 li > button {
+    position: relative;
 	font-weight: normal;
 	background: none;
 	border: none;
@@ -151,7 +136,7 @@ li > button {
 
 .done {
   
-	background: -webkit-linear-gradient(left,#527a7a,#157e7e,#04f5f5) !important;
+	background: -webkit-linear-gradient(left,#16707c,#277c7c,#37b4b4) !important;
     color: #fff;
     
 
@@ -163,4 +148,10 @@ footer{
     font-style: italic;
     text-align: center;
     background: -webkit-linear-gradient(left,#24bdbd,#09caca,#04f5f5);
+}
+@media(min-width:730px){
+    .box-card{
+        height: 100%;
+        width: 320px;
+    }
 }
